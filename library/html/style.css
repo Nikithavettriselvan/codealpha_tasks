@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#searchBar {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bookList, #history {
+    padding: 20px;
+}
+
+#bookList .book {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bookDetails {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#historyList li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
